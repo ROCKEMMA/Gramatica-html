@@ -1,0 +1,26 @@
+.footer {
+    padding: 2rem 1rem;
+    background-color: rgb(245, 245, 245);
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.footer img {
+    grid-column: 3/4;
+
+    display: block;
+    width: 70%;
+    margin:  0 auto;
+}
+.footer .div-colaboradores {
+    grid-column: 1/3;
+
+    display: grid;
+    gap: 1rem;
+}
+.div-colaboradores a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: rgb(10, 10, 10);
+}
